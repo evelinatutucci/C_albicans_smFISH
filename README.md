@@ -36,4 +36,4 @@ In order to install the necessary packages and start jupyter notebook type in yo
 5. jupyter notebook
  
 # Example dataset
-Example dataset is avalaibe at https://zenodo.org/record/8260706. For the full dataset used for the analysis performed in the linked article see https://zenodo.org/record/8260668. 
+Example dataset is avalaibe at https://zenodo.org/record/8288705. For the full dataset used for the analysis performed in the linked article see https://zenodo.org/record/8260668. 
