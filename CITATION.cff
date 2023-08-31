@@ -1,0 +1,26 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Otterdijk
+    given-names: Sander van
+    orcid: https://orcid.org/0000-0002-5503-1627
+  - family-names: Motealleh
+    given-names: Maryam
+    orcid: https://orcid.org/0009-0001-6292-9435
+  - family-names: Wang
+    given-names: Zixu
+    orcid: https://orcid.org/0000-0002-1879-0691
+  - family-names: Visser
+    given-names: Thomas Dirk
+    orcid: https://orcid.org/0009-0005-4441-8542
+  - family-names: Savakis
+    given-names: Philipp
+    orcid: https://orcid.org/0000-0001-5715-6047
+  - family-names: Tutucci
+    given-names: Evelina
+    orcid: https://orcid.org/0000-0002-1998-7146
+
+title: "Candida albicans smFISH data processing pipeline"
+version: 1.0.0
+doi: 10.5281/zenodo.8305200
+date-released: 2023-08-31
