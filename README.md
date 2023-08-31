@@ -1,4 +1,4 @@
-# O2-C.albicans-ET-github
+# C.albicans smFISH pipeline
 
 This GitHub repository consist of .ipynb files used for the data analysis of the VU systems biology O2 building ET laboratory C.albicans project. These notebooks where used in the anylsis of the article titled: "single-molecule Fluorescent In Situ Hybridization (smFISH) for RNA detection in the fungal pathogen Candida albicans".
 It consist of the following notebooks:
