@@ -36,4 +36,4 @@ In order to install the necessary packages and start jupyter notebook type in yo
 5. jupyter notebook
  
 # Example dataset
-An example dataset is available at https://zenodo.org/record/8288705. For the full dataset used for the analysis performed in the linked article see https://zenodo.org/record/8260668.
+An example dataset is available at https://zenodo.org/record/8308244. For the full dataset used for the analysis performed in the linked article see https://zenodo.org/record/8260668.
