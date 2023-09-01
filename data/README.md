@@ -4,8 +4,8 @@ Use the automatic download in the Jupyter notebook "01-npy_to_tif_conversion" to
 
 #### expected folder structure:
 
-$\hspace{1pt}$ data <br>
-$\hspace{9pt}$ ├─ unzipped_dir <br>
+├───$\hspace{1pt}$ data <br>
+$\hspace{28pt}$ ├─ unzipped_dir <br>
 $\hspace{55pt}$ ├─── DIC_corrected  <br>
 $\hspace{55pt}$ ├─── Masks <br>
 $\hspace{55pt}$ ├─── Results <br>
