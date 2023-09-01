@@ -5,10 +5,10 @@ Use the automatic download in the Jupyter notebook "01-npy_to_tif_conversion" to
 #### expected folder structure:
 
 $\hspace{1pt}$ data <br>
-$\hspace{5pt}$ unzipped_dir <br>
-$\hspace{30pt}$ ├─── DIC_corrected  <br>
-$\hspace{30pt}$ ├─── Masks <br>
-$\hspace{30pt}$ ├─── Results <br>
-$\hspace{30pt}$ ├─── Spots <br>
-$\hspace{30pt}$ ├─── Spots decomposition <br>
-$\hspace{30pt}$ └─── Zprojection <br>
+$\hspace{10pt}$ ├─── unzipped_dir <br>
+$\hspace{40pt}$ ├─── DIC_corrected  <br>
+$\hspace{40pt}$ ├─── Masks <br>
+$\hspace{40pt}$ ├─── Results <br>
+$\hspace{40pt}$ ├─── Spots <br>
+$\hspace{40pt}$ ├─── Spots decomposition <br>
+$\hspace{40pt}$ └─── Zprojection <br>
