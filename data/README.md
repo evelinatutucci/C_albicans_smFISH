@@ -4,7 +4,7 @@ Use the automatic download in the Jupyter notebook "01-npy_to_tif_conversion" to
 
 #### expected folder structure:
 
-├───$\hspace{5pt}$ root_dir <br>
+$\hspace{5pt}$ root_dir <br>
 $\hspace{30pt}$ ├─── DIC_corrected  <br>
 $\hspace{30pt}$ ├─── Masks <br>
 $\hspace{30pt}$ ├─── Results <br>
