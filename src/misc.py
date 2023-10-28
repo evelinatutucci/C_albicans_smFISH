@@ -29,32 +29,6 @@ def download_sample_data(target_dir, url):
     shutil.unpack_archive(f"{target_dir}/temp.zip", extract_dir=target_dir)
     os.remove(f"{target_dir}/temp.zip")
 
-def ensure_files_exist(root_dir):
-    """
-    checks if the files required to run the processing notebooks are present.
-    Optionally downloads a minimal dataset from zenodo
-    """
-
-    experiments = group_experiments(root_dir)
-
-    for identifier, replicates in experiments.items():
-
-        for replicate, paths in replicates.items():
-            print(f"testing {identifier} {replicate}")
-            for pattern in ['CY\d', 'cell_mask', 'nuclear_mask', 'DAPI', 'DIC']:
-                pattern_found = False
-                for file in paths.keys():
-                    if re.findall(pattern, file):
-                        pattern_found = True
-                if not pattern_found:
-                    print(f'could not find {pattern} in {identifier} {replicate}')
-                    break
-            else:
-                print('ok')
-            print(50 * '-')
-
-
-
 
 def find_high_density_patch(mask: np.ndarray, patch_size: Tuple = (200, 200), attempts: int = 20):
     """
@@ -152,6 +126,29 @@ def group_experiments(root_dir):
                 experiments[identifier][exp_number]['output_name'] = f'{identifier}_{channel}_{exp_number:02d}'
 
     return experiments
+
+def ensure_files_exist(root_dir):
+    """
+    checks if the files required to run the processing notebooks are present.
+    """
+
+    experiments = group_experiments(root_dir)
+
+    for identifier, fovs in experiments.items():
+
+        for fov, paths in fovs.items():
+            print(f"testing {identifier} {fov}")
+            for pattern in ['CY\d', 'cell_mask', 'nuclear_mask', 'DAPI', 'DIC']:
+                pattern_found = False
+                for file in paths.keys():
+                    if re.findall(pattern, file):
+                        pattern_found = True
+                if not pattern_found:
+                    print(f'could not find {pattern} in {identifier} {fov}')
+                    break
+            else:
+                print('ok')
+            print(50 * '-')
 
 
 def load_data(paths):
