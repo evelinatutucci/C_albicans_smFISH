@@ -8,6 +8,7 @@ Notebooks
   2. 02-spot_detection
   3. 03-spot_decomposition
   4. 04-spot_assignment
+  5. 05-plotting
 
 For a description of the code look at the corresponding number underneath:
 
@@ -21,6 +22,8 @@ For a description of the code look at the corresponding number underneath:
  
  
  4. The assignment of detected RNAs to a cell-mask id. Cellpose outputs a Mask file in which every cell is given a unique cell mask value. Here, the detected RNA coordinates are used to count the number of RNAs per unique cell mask ID.
+
+ 5. Plotting of generated data.
 
 Example of FISH image (scalebar 5 µm):
 ![example of FISH on the CLB2 mRNA for the SC5314 WT strain grown in SPIDER36 medium](CET111_CLB2Q670_SPIDER37_CY5_01_MAXcrop_filt_5um.png)
