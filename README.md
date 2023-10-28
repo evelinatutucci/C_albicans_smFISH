@@ -27,7 +27,7 @@ For a description of the code look at the corresponding number underneath:
 
 Example of FISH image (scalebar 5 µm):
 ![example of FISH on the CLB2 mRNA for the SC5314 WT strain grown in SPIDER36 medium](CET111_CLB2Q670_SPIDER37_CY5_01_MAXcrop_filt_5um.png)
-spots indicate fluorescently labelled CLB2 mRNA in the SC5314 WT strain grown in SPIDER medium at 37 °C.
+spots (yellow) indicate fluorescently labelled CLB2 mRNA in the SC5314 WT strain grown in SPIDER medium at 37 °C. The Blue signal indicates DAPI (DNA stain). Both fluorescent channels are overlayed on a DIC image. 
 
 # Requirements and installation
 In order to install the necessary packages and start jupyter notebook type in your terminal:
